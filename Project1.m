@@ -110,8 +110,8 @@ clc
 % s1 = [A*sqrt(T); 0];
 % s2 = [-2*A*sqrt(T)*1j/pi; A*sqrt(T)*sqrt(pi^2 -4)/pi];
 % x = 2*round(rand(1,N))-1;
-% n1 = sqrt(2*A^2*T/SNR)*(randn(1,N) + 1j*randn(1,N));
-% n2 = sqrt(2*A^2*T/SNR)*(randn(1,N) + 1j*randn(1,N));
+% n1 = sqrt(A^2*T/SNR)*(randn(1,N) + 1j*randn(1,N));
+% n2 = sqrt(A^2*T/SNR)*(randn(1,N) + 1j*randn(1,N));
 % phi = zeros(1,N);
 % r = zeros(2,N);
 % BER_VA = 0;
