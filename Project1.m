@@ -157,8 +157,8 @@ clc
 % for i=1:length(SNR)
 %     for j=1:P
 %         phi = zeros(1,N);
-%         n1 = sqrt(2*A^2*T/SNR(i))*(randn(1,N) + 1j*randn(1,N));
-%         n2 = sqrt(2*A^2*T/SNR(i))*(randn(1,N) + 1j*randn(1,N));
+%         n1 = sqrt(A^2*T/SNR(i))*(randn(1,N) + 1j*randn(1,N));
+%         n2 = sqrt(A^2*T/SNR(i))*(randn(1,N) + 1j*randn(1,N));
 %
 %         for n=1:N
 %             phi(n+1) = phi(n) + x(n)*pi/2;
